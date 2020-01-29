@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+body {
+  font-family: "Avenir LT Std", "Lato", "sans-serif";
+}
+a:focus,
+button:focus {
+  outline: none;
+}
+.right {
+  right: 0.5rem;
+}
+.btn {
+  @apply py-2 px-4 text-white font-medium rounded shadow transition-3;
+}
+.btn:hover,
+.btn:active {
+  @apply shadow-lg;
+}
+@tailwind utilities;
+a:focus,
+button:focus {
+  outline: none;
+}
+.border-radius-left {
+  border-radius: 5px 0px 0px 5px;
+}
+.border-radius-right {
+  border-radius: 0px 5px 5px 0px;
+}
+.right {
+  right: 0.15rem;
+}
+.max-w-12xl {
+  max-width: 120rem;
+}
+.w-content {
+  width: 1200px;
+}
+.max-w-content {
+  max-width: 1200px;
+}
+.max-h-xs {
+  max-height: 20rem;
+}
+.max-h-sm {
+  max-height: 30rem;
+}
+.max-h-md {
+  max-height: 40rem;
+}
+.max-h-lg {
+  max-height: 50rem;
+}
+.max-w-xs {
+  max-height: 20rem;
+}
+.max-w-sm {
+  max-height: 30rem;
+}
+.max-w-md {
+  max-height: 40rem;
+}
+.max-w-lg {
+  max-height: 50rem;
+}
+.w-80 {
+  width: 20rem;
+}
+.h-fit-content {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: -webkit-fill-available;
+  height: fit-content;
+}
+.h-full {
+  height: 100%;
+}
+.transition-2 {
+  transition: 0.2s;
+}
+.transition-3 {
+  transition: 0.3s;
+}
+.transition-5 {
+  transition: 0.5s;
+}
+.slide-up,
+.slide-down {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.slide-up {
+  height: 0;
+}
+.content-container {
+  @apply w-full px-6 mx-auto;
+  max-width: 78rem;
+}
+.main-nav-list li:hover > div.main-nav-sub-list {
+  display: block;
+}
+.main-nav-parent-items a:hover > div.main-nav-sub-menu {
+  visibility: visible;
+}
+@media (min-width: 992px) {
+  .account-box:hover {
+    display: block;
+  }
+}
+.opacity-80 {
+  opacity: 0.8;
+}
+.opacity-20 {
+  opacity: 0.2;
+}
+.opacity-10 {
+  opacity: 0.1;
+}
+.triangle {
+  position: absolute;
+  z-index: 1999;
+  left: -4rem;
+  border-bottom: 4rem solid white;
+  border-left: 4rem solid transparent;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}

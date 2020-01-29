@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transition-2 {
+    transition: 0.2s;
+  }
+  .transition-3 {
+    transition: 0.3s;
+  }
+  .transition-5 {
+    transition: 0.5s;
+  }
+  .bg-black-darkscreen{
+    background-color: #152642;
+  }
